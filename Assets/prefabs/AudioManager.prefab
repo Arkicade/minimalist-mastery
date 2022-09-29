@@ -1,0 +1,136 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &9116931061024824115
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 9116931061024824113}
+  - component: {fileID: 9116931061024824112}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &9116931061024824113
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9116931061024824115}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 433.9214, y: 247.47882, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &9116931061024824112
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9116931061024824115}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: edeb37d4a799fe24395d84308c1afacc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sounds:
+  - name: title_theme
+    clip: {fileID: 8300000, guid: 47665c8ca817d68468886cd1475df3ae, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 1
+    source: {fileID: 0}
+  - name: select_theme
+    clip: {fileID: 8300000, guid: 6a9abed42eef4fb4bbeaded2bca3027a, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 1
+    source: {fileID: 0}
+  - name: collect
+    clip: {fileID: 8300000, guid: 089a280799fb0b74db4328a69525cce7, type: 3}
+    volume: 0.4
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: pop
+    clip: {fileID: 8300000, guid: b821c1663b0348a45a62d1230003e18d, type: 3}
+    volume: 0.7
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: puzzle1
+    clip: {fileID: 8300000, guid: 89a0257fc0aaf474e965717361770470, type: 3}
+    volume: 0.6
+    pitch: 1
+    loop: 1
+    source: {fileID: 0}
+  - name: puzzle2
+    clip: {fileID: 8300000, guid: 84bfa47b8fcf58f45b428166977b7ec5, type: 3}
+    volume: 0.6
+    pitch: 1
+    loop: 1
+    source: {fileID: 0}
+  - name: puzzle3
+    clip: {fileID: 8300000, guid: 45a783c97599987459766f68f3aae99d, type: 3}
+    volume: 0.7
+    pitch: 1
+    loop: 1
+    source: {fileID: 0}
+  - name: pop3
+    clip: {fileID: 8300000, guid: df863e49047d67b489cb6281c7e8f922, type: 3}
+    volume: 0.7
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: imposter
+    clip: {fileID: 8300000, guid: 4d58cae9654de8245b0959ce82b9e19e, type: 3}
+    volume: 0.6
+    pitch: 1
+    loop: 1
+    source: {fileID: 0}
+  - name: pop2
+    clip: {fileID: 8300000, guid: 9e9ed424d17a2614e95467749aa856e0, type: 3}
+    volume: 0.7
+    pitch: 0.73
+    loop: 0
+    source: {fileID: 0}
+  - name: avantart
+    clip: {fileID: 8300000, guid: b17fc437ce5529f4e97bdc956bd9039e, type: 3}
+    volume: 0.6
+    pitch: 0.73
+    loop: 1
+    source: {fileID: 0}
+  - name: GO
+    clip: {fileID: 8300000, guid: 36b5353ac56160e498073af12cf58129, type: 3}
+    volume: 0.6
+    pitch: 0.73
+    loop: 1
+    source: {fileID: 0}
+  - name: strolling
+    clip: {fileID: 8300000, guid: a96a61a32b32ee94fa831e906ee45de8, type: 3}
+    volume: 0.6
+    pitch: 0.73
+    loop: 1
+    source: {fileID: 0}
+  - name: somethinghere
+    clip: {fileID: 8300000, guid: 85edb7d6fa6d2fc489089ee73ffd1cc3, type: 3}
+    volume: 0.7
+    pitch: 0.73
+    loop: 1
+    source: {fileID: 0}
+  - name: asfd
+    clip: {fileID: 8300000, guid: b17fc437ce5529f4e97bdc956bd9039e, type: 3}
+    volume: 0.7
+    pitch: 0.73
+    loop: 1
+    source: {fileID: 0}
